@@ -279,7 +279,7 @@ html[data-lang="ne"] .art-head .cat{text-transform:none;letter-spacing:0}
 }
 .video-card video{width:100%;height:100%;display:block;object-fit:cover;background:#000}
 .video-cover{
-  position:absolute;inset:0;border:none;cursor:pointer;padding:0;overflow:hidden;
+  position:absolute;inset:0;border:none;cursor:pointer;padding:0;overflow:hidden;color:#fff;
   display:flex;align-items:flex-end;text-align:left;transition:opacity .45s;background:#000;
 }
 .video-cover.hide{opacity:0;pointer-events:none}
@@ -290,8 +290,8 @@ html[data-lang="ne"] .art-head .cat{text-transform:none;letter-spacing:0}
 .cover-kicker{display:inline-flex;align-items:center;gap:7px;align-self:flex-start;font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#0a2018;background:var(--gold-grad);padding:5px 12px;border-radius:999px}
 html[data-lang="ne"] .cover-kicker{text-transform:none;letter-spacing:0}
 .cover-kicker svg{width:14px;height:14px}
-.cover-title{font-size:clamp(20px,3vw,28px);font-weight:800;text-shadow:0 2px 16px rgba(0,0,0,.6)}
-.cover-sub{font-size:13.5px;color:var(--gold-1);font-weight:600}
+.cover-title{font-size:clamp(20px,3vw,28px);font-weight:800;color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.75),0 1px 2px rgba(0,0,0,.6)}
+.cover-sub{font-size:13.5px;color:#fff;font-weight:600;text-shadow:0 1px 4px rgba(0,0,0,.7)}
 .cover-play{
   position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
   width:78px;height:78px;border-radius:50%;display:flex;align-items:center;justify-content:center;
